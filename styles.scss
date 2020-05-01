@@ -99,6 +99,9 @@ header {
     left: 28vw;
   }
 }
+main{
+  margin-bottom: 5rem;
+}
 footer {
   display: flex;
   justify-content: space-between;
@@ -106,6 +109,7 @@ footer {
   width: 100vw;
   position: absolute;
   bottom: 25px;
+  margin-top: 5rem;
   .copyright {
     font-size: 1.2rem;
     margin-left: 3rem;

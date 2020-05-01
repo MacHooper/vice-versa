@@ -119,6 +119,10 @@ header #mobile-nav {
   left: 28vw;
 }
 
+main {
+  margin-bottom: 5rem;
+}
+
 footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -132,6 +136,7 @@ footer {
   width: 100vw;
   position: absolute;
   bottom: 25px;
+  margin-top: 5rem;
 }
 
 footer .copyright {
