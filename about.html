@@ -7,31 +7,42 @@
     <title>Vice Versa</title>
     <link rel="stylesheet" href="./styles.css">
 </head>
-<body id="home">
+<body id="about">
     <header>
         <div class="logo">
-            <img src='/assets/img/logo.svg' alt='logo' onclick="navClick()" />
-            <h1 class="logo-text">Vice Versa</h1>
-            <div id="mobile-nav" style="display: none;">
-                <a href='index.html'>Home</a>
-                <a href='line-up.html'>Line-Up</a>
-                <a href='merch.html'>Merch</a>
-                <a href='tickets.html'>Tickets</a>
-                <a href='about.html'>About</a>
-                <a href='faq.html'>FAQ</a>
-            </div>
+          <img src="/assets/img/logo.svg" alt="logo" onclick="navClick()" />
+          <h1 class="logo-text">Vice Versa</h1>
+          <div id="mobile-nav" style="display: none;">
+            <a href="index.html">Home</a>
+            <a href="line-up.html">Line-Up</a>
+            <a href="merch.html">Merch</a>
+            <a href="tickets.html">Tickets</a>
+            <a href="about.html">The Joiners</a>
+            <a href="about-uk.html">Help Musicians</a>
+            <a href="about-joiners.html">The Joiners</a>
+            <a href="faq.html">FAQ</a>
+          </div>
         </div>
         <nav>
-            <a href='index.html'>Home</a>
-            <a href='line-up.html'>Line-Up</a>
-            <a href='merch.html'>Merch</a>
-            <a href='tickets.html'>Tickets</a>
-            <a href='about.html'>About</a>
-            <a href='faq.html'>FAQ</a>
+          <div class="nav">
+              <a href="index.html">Home</a>
+              <a href="line-up.html">Line-Up</a>
+              <a href="merch.html">Merch</a>
+              <a href="tickets.html">Tickets</a>
+              <div class="dropdown">
+                <a class="dropbtn" onclick="dropdown()">About</a>
+                <div id="dropdown" class="dropdown-content">
+                  <a href="about.html">Vice Versa</a>
+                  <a href="about-uk.html">Help Musicians</a>
+                  <a href="about-joiners.html">The Joiners</a>
+                </div>
+              </div>
+              <a href="faq.html">FAQ</a>
+          </div>
         </nav>
-    </header>
+      </header>
     <main>
-        <img src="" alt="" id="about-astro">
+        <div class="img-place"></div><!-- <img src="" alt="" id="about-astro"> -->
         <div class="container">
             <p>Vice Versa Festival 2020 is in its first year with its debut being held at The Joiners, Southampton. What started out as a fictional university assignment at Solent has turned into a reality for student Lucy Cull.</p>
             <p>The festival features a range of pop-punk, alternative artists ranging from Stand Atlantic, all the way from Australia, to Djuno, a local Southampton band featuring Toby Robinson - Solent Graduate and promoter at The Joiners.</p>
