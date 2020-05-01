@@ -202,6 +202,11 @@ footer {
       justify-content: space-around;
       max-width: 100vw;
       padding: 2.5rem;
+      #lbl{
+        margin-top: 5rem;
+        width: 400px;
+        height: 50px;
+      }
     }
   }
 }
@@ -600,7 +605,7 @@ footer {
           width: 200px;
         }
         #lbl {
-          width: 60px;
+          width: 110px;
         }
         #hm {
           width: 100px;
