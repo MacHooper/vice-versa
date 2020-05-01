@@ -7,23 +7,40 @@
     <title>Vice Versa</title>
     <link rel="stylesheet" href="./styles.css">
 </head>
-<body>
+<body id="home">
     <header>
         <div class="logo">
-            <a href="index.html">
-                <img src='/assets/img/logo.svg' alt='logo' />
-                <h1 class="logo-text">Vice Versa</h1>
-            </a>    
+          <img src="/assets/img/logo.svg" alt="logo" onclick="navClick()" />
+          <h1 class="logo-text">Vice Versa</h1>
+          <div id="mobile-nav" style="display: none;">
+            <a href="index.html">Home</a>
+            <a href="line-up.html">Line-Up</a>
+            <a href="merch.html">Merch</a>
+            <a href="tickets.html">Tickets</a>
+            <a href="about.html">The Joiners</a>
+            <a href="about-uk.html">Help Musicians</a>
+            <a href="about-joiners.html">The Joiners</a>
+            <a href="faq.html">FAQ</a>
+          </div>
         </div>
         <nav>
-            <a href='index.html'>Home</a>
-            <a href='line-up.html'>Line-Up</a>
-            <a href='merch.html'>Merch</a>
-            <a href='tickets.html'>Tickets</a>
-            <a href='about.html'>About</a>
-            <a href='faq.html'>FAQ</a>
+          <div class="nav">
+              <a href="index.html">Home</a>
+              <a href="line-up.html">Line-Up</a>
+              <a href="merch.html">Merch</a>
+              <a href="tickets.html">Tickets</a>
+              <div class="dropdown">
+                <a class="dropbtn" onclick="dropdown()">About</a>
+                <div id="dropdown" class="dropdown-content">
+                  <a href="about.html">Vice Versa</a>
+                  <a href="about-uk.html">Help Musicians</a>
+                  <a href="about-joiners.html">The Joiners</a>
+                </div>
+              </div>
+              <a href="faq.html">FAQ</a>
+          </div>
         </nav>
-    </header>
+      </header>
     <main>
 
     </main>
@@ -37,4 +54,6 @@
         </div>
     </footer>
 </body>
+<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+<script src="main.js"></script>
 </html>
