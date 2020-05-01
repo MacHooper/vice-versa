@@ -736,6 +736,11 @@ footer .social a {
     color: #fff;
     padding-top: 10px;
   }
+  #home main,
+  #lineup main,
+  #merch main {
+    height: 65vh;
+  }
   #home main #spaceman,
   #lineup main #spaceman,
   #merch main #spaceman {
