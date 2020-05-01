@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta name='description' content='UK Grassroots Music Festival, based in Southampton UK.'>
+    <title>Vice Versa</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body id="home">
+    <header>
+        <div class="logo">
+            <img src='/assets/img/logo.svg' alt='logo' onclick="navClick()" />
+            <h1 class="logo-text">Vice Versa</h1>
+            <div id="mobile-nav" style="display: none;">
+                <a href='index.html'>Home</a>
+                <a href='line-up.html'>Line-Up</a>
+                <a href='merch.html'>Merch</a>
+                <a href='tickets.html'>Tickets</a>
+                <a href='about.html'>About</a>
+                <a href='faq.html'>FAQ</a>
+            </div>
+        </div>
+        <nav>
+            <a href='index.html'>Home</a>
+            <a href='line-up.html'>Line-Up</a>
+            <a href='merch.html'>Merch</a>
+            <a href='tickets.html'>Tickets</a>
+            <a href='about.html'>About</a>
+            <a href='faq.html'>FAQ</a>
+        </nav>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+        <span class="copyright">Copyright &copy; 2020 <a href="lucycull.design">Lucy Cull</a></span>
+        <div class="social">
+            <a href="https://facebook.com"><ion-icon name="logo-facebook" size="large"></ion-icon></a>
+            <a href="https://twitter.com"><ion-icon name="logo-twitter" size="large"></ion-icon></a>
+            <a href="https://instagram.com"><ion-icon name="logo-instagram" size="large"></ion-icon></a>
+            <a href="https://youtube.com"><ion-icon name="logo-youtube" size="large"></ion-icon></a>
+        </div>
+    </footer>
+</body>
+<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+<script>
+    function navClick() {
+      var nav    = document.getElementById("mobile-nav");
+      if (
+        nav.style.display   === "none") {
+        nav.style.display   = "flex";
+      } else {
+        nav.style.display   = "none";
+      }
+    }
+</script>
+</html>
